@@ -27,10 +27,10 @@ grunt.initConfig({
   mm_packer: {
     example: {
       src: ["examples/assets/*"],
-        dest: "examples/output",
-        options: {
-          name: "pack"
-        }
+      dest: "examples/output",
+      options: {
+        name: "pack"
+      }
     },
   },
 });
