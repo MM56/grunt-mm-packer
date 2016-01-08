@@ -1,0 +1,45 @@
+{
+  "name": "grunt-mm-packer",
+  "description": "The best Grunt plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/MM56/grunt-mm-packer",
+  "author": {
+    "name": "Gil Polguère",
+    "email": "gpolguere@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MM56/grunt-mm-packer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MM56/grunt-mm-packer/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/MM56/grunt-mm-packer/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "mm-packer": "packer",
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "mm-packer": "1.0.3",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "files": [
+    "tasks",
+    "LICENSE-MIT"
+  ]
+}
