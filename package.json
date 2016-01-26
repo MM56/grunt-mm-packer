@@ -1,7 +1,7 @@
 {
   "name": "grunt-mm-packer",
   "description": "Grunt contrib for mm-packer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/MM56/grunt-mm-packer",
   "author": {
     "name": "Gil Polguère",
