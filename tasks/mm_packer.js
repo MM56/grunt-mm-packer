@@ -8,6 +8,8 @@
 
 'use strict';
 
+var packer = require("mm-packer");
+
 module.exports = function(grunt) {
 
 	var execSync = require('child_process').execSync;
@@ -31,7 +33,7 @@ module.exports = function(grunt) {
 					}
 					var finalFolder = cleanDest + "/" + folderName;
 					grunt.file.mkdir(finalFolder);
-					exec("npm run mm-packer -- -p " + filePath + " -o " + finalFolder + " -n " + options.name);
+					packer(filePath, finalFolder, options.name);
 				}
 			});
 		});
